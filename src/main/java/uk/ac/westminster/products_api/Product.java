@@ -12,6 +12,9 @@ public class Product {
         this.price = price;
     }
 
+    public Product() {
+    }
+
     public void setId(Long id) {
         this.id = id;
     }
